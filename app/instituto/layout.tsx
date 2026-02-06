@@ -1,6 +1,7 @@
 import { HeaderInstituto } from "./componentes/header";
 import { NavbarInstituto } from "./componentes/navbar";
 import '../globals.css';
+import Footer from "./componentes/footer";
 
 export default function InstitutoLayout({
   children,
@@ -20,6 +21,7 @@ export default function InstitutoLayout({
       <main className="container my-5">
         {children}
       </main>
+      <Footer/>
     </>
   )
 }
